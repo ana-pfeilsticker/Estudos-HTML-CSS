@@ -1,0 +1,140 @@
+body {
+    background-color: #979797 ;
+    margin: 3%;
+}
+
+
+.container{
+    padding: 3px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: space-around;
+    align-content: space-around;
+    gap: 10px 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#474350 ;
+    padding: 15px;
+    padding-bottom: 30px ;
+    width: 300px;
+    height: 200px;
+    border-radius: 2%;
+    background-image: url('assets/nature.avif');
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-duration{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.duration{
+    padding: 3px 15px 3px 15px;
+    background-color: #4743506c;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 900;
+    font-size: 12px;
+    color: #F7F7F7;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    margin:0;
+    gap: 8px;
+}
+
+.container-text-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.container-emoji-text{
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    align-items: center;
+    gap:10px
+}
+
+i{ 
+    color: #dadada;
+    font-weight: 200;
+}
+
+.container-emoji-text-text{
+    font-family: 'Open Sans', sans-serif;
+    color: #dadada;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0;
+}
+
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#f1f1f1 ;
+    padding: 15px;
+    padding-bottom: 30px ;
+    width: 300px;
+    height: 350px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image{
+    width:100%;
+    background-image: url(assets/nature.avif);
+    height: 50%;
+    border-radius: 5%;
+}
+
+.container-text-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0;
+    color: #383838;
+}
+.container-text-small{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin: 0;
+    color: #7c7c7c;
+}
+
+.container-text2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    margin:0;
+    gap: 8px;
+}
+
+.action{
+    border: none;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #ebebeb;
+    border-radius: 10px;
+    margin: 0;
+}
