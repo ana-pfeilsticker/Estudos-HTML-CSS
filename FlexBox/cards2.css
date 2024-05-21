@@ -7,8 +7,9 @@ body{
 .container{
     display: flex;
     gap:20px;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+
 
 
 }
