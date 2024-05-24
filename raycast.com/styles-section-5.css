@@ -97,6 +97,64 @@ background-color: transparent;
 color: #ffffff80;
 }
 
+input{
+    border-radius: 0.8rem;
+    background-color: #1e152e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: solid 1px #ffffff10
+}
+
+.input ::placeholder{
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.grid-card-3-section-8{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.grid-card-4-section-8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    gap: 2rem;
+}
+
+.grid-card-3-section-8 .text-subtext-card-2-grid{
+    align-items: flex-start;
+
+}
+.input-button{
+    display: flex;
+    width: 80%;
+    align-items:center ;
+    justify-content: flex-start;
+    gap:2rem;
+}
+
+.section-8{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap: 6rem;
+    margin-bottom:10vh; 
+    height: fit-content;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 @media screen and (max-width:900px){
     .grid-card-3-section-5{
         background-color: #ffffff10;
@@ -124,6 +182,24 @@ color: #ffffff80;
 
     .conjunto-2-cards-section-7{
         flex-direction: column;
+    }
+
+    .section-8 .conjunto-2-cards-section-7{
+        width: 90%;
+    }
+    .grid-card-4-section-8{
+        width: 90%;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .grid-card-3-section-8{
+        width: 100%;
+    }
+    .input-button{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
